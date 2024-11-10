@@ -1,0 +1,69 @@
+.favorPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 64px;
+  gap: 67px;
+  margin-top: 33px;
+}
+
+.locationTitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.textInput {
+  font-weight: 400;
+  font-size: 16px;
+}
+.location_input {
+  width: 360px;
+  height: 56px;
+  padding: 10px;
+  border: 2px solid #dadde1;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.favorPageCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 64px;
+}
+
+.filterSidebar {
+  position: sticky;
+  top: 116px;
+  z-index: 900;
+  background-color: white;
+  height: calc(100vh - 116px);
+  overflow-y: auto;
+}
+.showMoreBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #101828;
+  border: 2px solid #dadde1;
+  cursor: pointer;
+  width: 145px;
+  height: 56px;
+  font-weight: medium;
+  font-size: 16px;
+}
+.showMoreBtn:hover {
+  border: 2px solid #d84343;
+}
+.catalogBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

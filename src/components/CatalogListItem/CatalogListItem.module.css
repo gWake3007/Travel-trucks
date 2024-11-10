@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 888px;
+  height: auto;
+}
+
+.carImage {
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.infoContainer {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+.nameAndPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.carName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 340px;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #101828;
+}
+
+.carLocation,
+.carDetails,
+.kitchen,
+.rating,
+.carPrice,
+.AC,
+.carAmenities {
+  color: #101828;
+}
+
+.carDescript {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #475467;
+  max-width: 525px;
+  padding-bottom: 24px;
+}
+.showMoreBtn {
+  background-color: #e44848;
+  margin-left: 1px;
+  width: 166px;
+  height: 56px;
+  border: none;
+}
+.showMoreBtn:hover {
+  background-color: #d84343;
+}
+.priceAndHeart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 6px;
+}
+
+.carPrice {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.heartIcon {
+  font-size: 18px;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 1px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.ratingAndLocation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.allCarDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.iconsElem {
+  padding-right: 8px;
+}
+
+.locationAndIcon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  gap: 4px;
+}
+
+.iconsElemStar {
+  fill: #ffc531;
+}
+.featureText {
+  font-weight: 500;
+  font-size: 16px;
+}
+.carLocation {
+  margin-bottom: 0;
+}
+
+.heartIcon {
+  cursor: pointer;
+  stroke: 6px black;
+  color: transparent;
+}
+
+.heartIcon:hover svg {
+  stroke: red;
+  fill: transparent;
+}
+
+.favorite svg {
+  stroke: red;
+  fill: red;
+}
